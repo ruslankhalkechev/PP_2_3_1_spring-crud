@@ -5,11 +5,11 @@ import web.model.User;
 import java.util.List;
 
 public interface UserDAO {
-    void add(User user);
+    User add(User user);
 
     void deleteUserById(long id);
 
-    void update(User user);
+    User update(User user);
 
     User getUserById(long id);
 
